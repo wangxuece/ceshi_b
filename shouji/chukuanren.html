@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+</head>
+<body>
+<div class="root">
+   <div class="temp-main">
+  	 <div>
+  	 	<div class="temp_main_list">
+  	 		<div class="tamp_main_body">
+  	 			<div>
+  	 				<div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						<span class="col">*</span>
+  	 						出款人姓名
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="借款人姓名" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 				  	<div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						<span class="col">*</span>
+  	 						出款人证件号
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="借款人身份证号" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 				<div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						<span class="col">*</span>
+  	 						出款人电话
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="借款人手机号" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 					<div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						<span class="col">*</span>
+  	 						出款人邮箱
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="借款人邮箱" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 				<div>
+  	 					<div class="am-list">
+  	 						<div class="am-list-body">
+  	 							<div class="am_list_top">
+  	 								<span class="col">*</span>出款人身份证正反面
+  	 								<span class="col_rg">至少上传两张</span>
+  	 							</div>
+  	 							<div class="am_list_btm">
+  	 								<div class="am_list_btm_img am-flexbox ">
+  	 								<div class="am_list_btm_img_put">
+  	 									<input type="file">
+  	 								</div>
+                    <div class="am_list_btm_img_put">
+                      <input type="file">
+                    </div>
+  	 									
+  	 								</div>
+  	 							</div>
+  	 						</div>
+  	 					</div>
+  	 				</div>
+  	 				<!-- <div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						
+  	 						共同借款人姓名
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="共同借款人姓名" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 				<div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						
+  	 						共同借款人身份证号码
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="共同借款人身份证号码" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 			    <div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						
+  	 						共同借款人手机号码
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="共同借款人手机号码" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 				<div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						
+  	 						共同借款人电子邮箱
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="共同借款人电子邮箱" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 				<div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						<span class="col">*</span>
+  	 						借款用途
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="如：某某借款完成X事" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 				<div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						<span class="col">*</span>
+  	 						借款金额
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="借款金额" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 				<div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						<span class="col">*</span>
+  	 						收款人账户名
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="收款人账户名" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 				<div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						<span class="col">*</span>
+  	 						开户行
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="开户行" type="text" value="">
+  	 					</div>
+  	 				</div>
+  	 				<div class="tamp_main_box">
+  	 					<div class="tamp_main_lf">
+  	 						<span class="col">*</span>
+  	 						银行账户
+  	 					</div>
+  	 					<div class="tamp_main_rg">
+  	 						<input placeholder="银行账户" type="text" value="">
+  	 					</div>
+  	 				</div>
+            <div class="tamp_main_box">
+              <div class="tamp_main_lf">
+                <span class="col">*</span>
+                还款日期
+              </div>
+              <div class="tamp_main_rg">
+                <input placeholder="还款日期" type="text" value="">
+              </div>
+            </div> -->
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+     <a href=""role="button "class="btn_a btnA"><span>提交</span></a>
+  </div>
+	
+</div>
+
+
+    	
+</body>
+</html>

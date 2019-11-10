@@ -1,0 +1,260 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-10-18 09:35:27
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-11-09 16:31:00
+*/
+body{
+	width: 100%;
+
+}
+.root {
+	width: 100%;
+	height: 100%;
+}
+.home_main{
+	width: 100%;
+	height: 800px;
+}
+.home_main img {
+		    padding-top: 5rem;
+    display: block;
+    margin: auto auto 2rem;
+}
+.home_main >h3{
+	text-align: center;
+    margin: 0 0 1rem;
+    font-size: 0.75rem;
+}
+.btn{
+    line-height: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 3.2rem;
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 1.5rem;
+}
+.temp-main{
+    padding: 1rem 1rem 57px;
+}
+.tamp_main_box{
+    height: 44px;
+    border-bottom: 1px solid #ddd;
+
+}
+.tamp_main_lf{
+    width: 45%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  float: left;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.tamp_main_rg {
+    float: right;
+}
+.tamp_main_rg input{
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    font-size: 14px;
+    width: 150px;
+    padding: 2px 0;
+    border: 0;
+    background-color: initial;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.col{
+color: #f50;
+    width: 10px;
+    display: inline-block;
+}
+.am-list-body{
+
+}
+.am_list_top{
+    font-size: 17px;
+    height: 44px;
+    line-height: 44px;
+    position: relative;
+}
+.col_rg{
+    font-size: 14px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    color: #F50;
+}
+.am_list_btm_img{
+        padding: 9px 8px 0;
+    margin-bottom: 15px;
+}
+.am-flexbox {
+        text-align: left;
+    overflow: hidden;
+    display: flex;
+}
+.am_list_btm_img_put{
+    width: 50%;
+    height: 6rem;
+    line-height: 6rem;
+        box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    position: relative;
+}
+.am_list_btm_img_put label{
+    width: 100px;
+    height: 100px;
+}
+.am_list_btm_img_put input{
+    text-align: center;
+    width:80%;
+    height: 25px;
+    display:inline-block;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    margin-left: -35px;
+    margin-top: -12.5px;
+}
+.btn_a{
+    width: 100%;
+    text-align: center;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+.btnA{
+        background: #024a9c;
+    bottom: 0;
+    position: fixed!important;
+    left: 0;
+    border-radius: 0;
+    z-index: 100;
+}
+.btnA span {
+    color: #FFF;
+    font-size: 14px;
+}
+.btn_lt li {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.tamp_main_pr{
+    position: relative;
+}
+.input-sm {
+    position: absolute;
+    right: 0px;
+    top: 25%;
+}
+.comment_hd{
+    width: 100%;
+    height: 350px;
+    background: url(../images/hbg.png);
+        background-size: cover;
+}
+.comment_hd_box{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.comment_hd_box-img{
+}
+.comment_hd_box-img img{
+   width: 2rem;
+    height: 2rem;
+    padding:120px 0 60px 0px;
+}
+.comment_hd_box-mingcheng h5{
+    color: #FFF;
+    font-family: '微软雅黑';
+}
+.comment_list
+{
+    width: 100%;
+    height: 800px;
+}
+
+.comment_list_a{
+    padding-top: 20px;
+    text-align: center;
+}
+.comment_list_a_ul li{
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+.comment_list_a_ul li>span{
+    font-size: 24px;
+}
+.comment_list_a_ul li>input{
+    width: 50%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border: 1px solid #939393;
+    font-size: 24px;
+}
+.comment_list_a_ul select{
+    width: 50%;
+     height: 1.5rem;
+    line-height: 1.5rem;
+    border: 1px solid #939393;
+    font-size: 24px;
+
+}
+.comment_list_a_ul select option{
+    font-size: 16px;
+}
+.container-fluid-b{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+.container-fluid-b-list>li {
+    width: 25%;
+    font-size: 16px;
+    float: left;
+    text-align: center;
+}
+.container-fluid-c {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.container-fluid-c-list>li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+}
+.fenye{
+    margin-top: 20px;
+
+    display: inline-block;
+}
+.fenye .fenye-list li {
+    font-size: 16px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #FFF;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}

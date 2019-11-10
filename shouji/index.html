@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+</head>
+<body>
+<div class="root">
+<div class="home_main">
+	<img src="images/logo.png" alt="">
+	<h3>河北权法法律咨询服务有限公司</h3>
+	<a href="gerenxindai.html">
+		<div class="btn">
+			个人借款(民间借贷)合同 无担保无共同借款
+		</div>
+	</a>
+		<a href="gerenxindai_gongtong.html">
+		<div class="btn">
+			个人借款(民间借贷)合同  无担保有共同借款
+		</div>
+	</a>
+	<a href="danbaoren.html">
+		<div class="btn">
+			个人借款(民间借贷)合同 有担保无共同借款
+		</div>
+	</a>
+		<a href="danbaoren_a.html">
+		<div class="btn">
+			个人借款(民间借贷)合同 有担保有共同借款
+		</div>
+	</a>
+</div>
+<div class="btn_a btnA">
+	<div class="btn_lt">
+	  <ul class="clearfix">
+	  	<li>
+	  		<a href="index.html">
+	  			<span>首页</span>
+	  		</a>
+	  	</li>
+	  	<li>
+	  		<a href="geren.html">
+	  			<span>个人中心</span>
+	  		</a>
+	  	</li>
+	  </ul>
+		
+	</div>
+</div>
+	
+</div>
+
+
+    	
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/zc.css">
+	<link rel="stylesheet" href="font/iconfont.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+    <script>
+var _width = parseInt(window.screen.width);
+var scale = _width/640;
+var ua = navigator.userAgent.toLowerCase();
+var result = /android (\d+\.\d+)/.exec(ua);
+if (result){
+var version = parseFloat(result[1]);
+if(version>2.3){
+document.write('<meta name="viewport" content="width=640, minimum-scale = '+scale+', maximum-scale = '+scale+', target-densitydpi=device-dpi">');
+}else{
+document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+}
+} else {
+document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+}
+</script>
+</head>
+<body>
+<div class="header">
+	<div class="header_logo">
+		<img src="images/yonghu.png" height="120" width="120" alt="">
+	</div>
+<!-- 	<div class="box clearfix">
+		<div class="box_list">
+			<ul class="box_list_li clearfix">
+				<li>
+					<span class="iconfont icon-geren">个人注册</span>
+				</li>
+				<li>
+					<span class="iconfont icon-qiye">企业注册</span>
+				</li>
+			</ul>
+			<ol class="box_list_active">
+  	            <li>
+  		<input type="text" placeholder="设置登录账号">
+  	            </li>
+  	            <li>
+  		<input type="password" placeholder="设置登录密码">
+  	            </li>
+  	  	        <li>
+  		<input type="password" placeholder="确认登录密码">
+  	            </li>
+  	            <li>
+  		<input type="text" placeholder="输入手机号">
+  	            </li>
+  	            <li class="box_list_ol_input clearfix" >
+  	            <input type="text" placeholder="输入验证码" style="width: 50%;">
+  	            <a href="#">获取验证码</a>
+  	            </li>
+
+			</ol>
+		</div>
+	</div> -->
+</div>
+<div class="container clearfix">
+<div id="content1" class="active">
+ <form action="">
+          <ol class="box_list_active active">
+                <li>
+      <input type="text" placeholder="设置登录账号">
+                </li>
+                <li>
+      <input type="password" placeholder="设置登录密码">
+                </li>
+                <li>
+      <input type="password" placeholder="确认登录密码">
+                </li>
+                <li>
+      <input type="text" placeholder="输入手机号">
+                </li>
+<!--                 <li class="box_list_ol_input clearfix" >
+                <input type="text" placeholder="输入验证码" style="width: 50%;">
+                <a href="#">获取验证码</a>
+                </li> -->
+                  <li class="tj">
+                 <a href="index.html">提交</a>
+                </li>
+      </ol>
+ </form>
+</div>
+<!-- <div id="content2">
+	<ol class="box_list_active active">
+  	            <li>
+  		<input type="text" placeholder="输入公司名称">
+  	            </li>  <li>
+  		<input type="text" placeholder="设置登录账号">
+  	            </li>
+  	            <li>
+  		<input type="password" placeholder="设置登录密码">
+  	            </li>
+  	  	        <li>
+  		<input type="password" placeholder="确认登录密码">
+  	            </li>
+  	            <li>
+  		<input type="text" placeholder="输入手机号">
+  	            </li>
+  	            <li class="box_list_ol_input clearfix" >
+  	            <input type="text" placeholder="输入验证码" style="width: 50%;">
+  	            <a href="#">获取验证码</a>
+  	            </li>
+  	            <li class="tj">
+  	             <a href="#">提交</a>
+  	            </li>
+
+			</ol>
+</div> -->
+<!-- <ul class='nav'>
+<li class="active"><a href="#content1"><span class="iconfont icon-geren">个人注册</span></a></li>
+<li><a href="#content2"><span class="iconfont icon-qiye">企业注册</span></a></li> -->
+<!-- </ul> -->
+</div>
+</body>
+</html>

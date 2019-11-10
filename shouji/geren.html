@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	<script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+        <script>
+var _width = parseInt(window.screen.width);
+var scale = _width/640;
+var ua = navigator.userAgent.toLowerCase();
+var result = /android (\d+\.\d+)/.exec(ua);
+if (result){
+var version = parseFloat(result[1]);
+if(version>2.3){
+document.write('<meta name="viewport" content="width=640, minimum-scale = '+scale+', maximum-scale = '+scale+', target-densitydpi=device-dpi">');
+}else{
+document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+}
+} else {
+document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+}
+</script>
+</head>
+<body>
+<div class="comment_hd">
+<div class="comment_hd_box">
+    <div class="comment_hd_box-img">
+        <img src="images/yonghu.png" alt="">
+    </div>
+    <div class="comment_hd_box-mingcheng">
+        <h5>王11</h5>
+    </div>
+</div>  
+</div>
+<div class="comment_list">
+<div class="comment_list_a">
+<!--     <ul class="comment_list_a_ul">
+        <li>
+            <span>合同编号:</span>
+            <input type="text" name="firstname">
+        </li>
+        <li>
+            <span>合同类型:</span>
+               <select name="cars">
+            <option value="volvo">信贷业务</option>
+            <option value="saab">车贷业务</option>
+            </select>
+        </li>
+    </ul> -->
+
+    <div class="container-fluid-b clearfix">
+    <ul class="container-fluid-b-list clearfix">
+        <li>编号</li>
+        <li>类型</li>
+        <li>状态</li>
+        <li>操作</li>
+    </ul>
+    </div>
+    <div class="container-fluid-c clearfix">
+    <ul class="container-fluid-c-list clearfix">
+        <li>123123123</li>
+        <li>个人信贷</li>
+        <li>已签订</li>
+        <li> <a href="https://web.junziqian.com/applySign/toDetailAnony?ts=1570859464890&amp;applyNo=APL1176070947632328704&amp;sign=5EPFEcjKlJHorFvUVQNRB9fKrL2PUB1ogpt9nMaAlBk">查看</a>
+    </li>
+    </ul>
+
+    </div>
+        <div class="container-fluid-c clearfix">
+    <ul class="container-fluid-c-list clearfix">
+        <li>123123123</li>
+        <li>个人信贷</li>
+        <li>已签订</li>
+        <li> <a href="https://web.junziqian.com/applySign/toDetailAnony?ts=1570859464890&amp;applyNo=APL1176070947632328704&amp;sign=5EPFEcjKlJHorFvUVQNRB9fKrL2PUB1ogpt9nMaAlBk">查看</a>
+    </li>
+    </ul>
+
+    </div>
+    <div class="container-fluid-c clearfix">
+     </div>
+     <div class="container-fluid-c clearfix">
+     </div>
+     <div class="container-fluid-c clearfix">
+     </div>
+     <div class="container-fluid-c clearfix">
+     </div>
+     <div class="container-fluid-c clearfix">
+     </div>
+     <div class="container-fluid-c clearfix">
+     </div>
+     <div class="container-fluid-c clearfix">
+     </div>
+     <div class="container-fluid-c clearfix">
+     </div>
+     <div class="fenye">
+     <ul class="fenye-list clearfix">
+        <li><a href="">&lt;</a></li>
+        <li class="active"><a href="">1</a></li>
+        <li><a href="">2</a></li>
+        <li><a href="">3</a></li>
+        <li><a href="">4</a></li>
+        <li><a href="">5</a></li>
+        <li><a href="">&gt;</a></li>
+     </ul>
+     </div>
+</div>
+</div>
+<div class="btn_a btnA">
+    <div class="btn_lt">
+      <ul class="clearfix">
+        <li>
+            <a href="index.html">
+                <span>首页</span>
+            </a>
+        </li>
+        <li>
+            <a href="geren.html">
+                <span>个人中心</span>
+            </a>
+        </li>
+      </ul>
+        
+    </div>
+</div>
+
+</body>
+</html>
